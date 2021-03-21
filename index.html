@@ -13,13 +13,23 @@
         <form class="js-form form">
             <input type="text" placeholder="What is your name?" />
         </form>
-        <h4 class="js-greetings greetings"></h4>
+        <h2 class="js-greetings greetings"></h2>
         <form class="js-toDoForm">
             <input type="text" placeholder ="Write a to do" />
         </form>
-        <ul class="js-toDoList">
-        </ul>
-        <h6 class="js-progress">finished:</h6>
+        <div class="container">
+            <div class="item">
+                <a>Not Finished!</a>
+                <ul class="js-toDoList">
+                </ul>
+            </div>
+            <div class="item">
+                <a>Finished!</a>
+                <ul class="js-finishList">
+                </ul>
+            </div>
+        </div>
+        <h4 class="js-progress">Progress:</h4>
         <spanc class="js-weather"></spanc>
         <script src="clock.js"></script>
         <script src="greeting.js"></script>
