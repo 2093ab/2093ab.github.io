@@ -100,7 +100,6 @@ function saveProgress(){
     }
     else{
         const finishPercent = (finishNum/allNum)*100;
-        console.log(finishPercent);
         progressPercent.innerHTML = `${finishPercent.toFixed(2)}%`;
         progressBar.value = finishPercent;
     }
